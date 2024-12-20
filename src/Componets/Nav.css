@@ -1,0 +1,289 @@
+#header {
+    max-height: 100%;
+    background-size: cover;
+    background-image: url(./Image/Background.png);
+    height: 90vmin;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.hrline {
+    height: 1vmin;
+    color: var(--w);
+}
+
+.navbar-toggler {
+    text-decoration: none;
+    background: white;
+
+}
+
+#uuu {
+    border-radius: 50%;
+    width: 4vmin;
+    margin-right: 8vmin;
+    border: 1px solid;
+    color: antiquewhite;
+}
+
+#imgcenter {
+    vertical-align: middle;
+    margin: 0 AUTO;
+    display: flex;
+
+}
+
+@media screen and (max-width:321px) {
+
+    #thisDivelorem {
+        width: 91vmin;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .means h1 {
+        font-size: 10vmin;
+    }
+
+    #uuu {
+        width: 8vmin;
+    }
+
+    #bottom {
+        /* float: left; */
+
+        margin: 11vmin 2vmin;
+    }
+}
+
+.offcanvas {
+    background-size: cover;
+    background-image: url(./Image/Background.png);
+}
+
+.offcanvas-header i {
+    color: var(--w);
+    background-origin: padding-box;
+    /* padding: 1vmin; */
+    /* border-radius: 50%; */
+    font-size: 4vmin;
+    /* border: 1px solid; */
+}
+
+.btn-close {
+    float: inline-end;
+}
+
+.offcanvas-header {
+    display: block;
+    align-items: center;
+    padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    align-items: center;
+    vertical-align: middle;
+    /* margin: 0 auto; */
+}
+
+.offcanvas-header img {
+    width: 15vmin;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* #myhome a {
+    color: var(--w);
+} */
+
+#myhome a:hover {
+    transition: all 0.4s ease-in;
+
+    color: var(--a);
+}
+
+#myhome:active {
+    color: var(--w);
+}
+
+.txtid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txtid>div {
+    font-size: 1.7vmin;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+#iconUl {
+    align-items: center;
+    display: flex;
+
+}
+
+.myDis img {
+    width: 15vmin;
+}
+
+.iconUli>i {
+    font-size: 2.5vmin;
+}
+
+#iconUl>span {
+    /* border: 1px solid ; */
+    margin-left: 1vmin;
+
+}
+
+.email {
+    align-items: center;
+    height: 5vmin;
+    border-bottom: 1px solid;
+    /* border: 2px solid; */
+    vertical-align: middle;
+    align-items: center;
+    line-height: 4.5vmin;
+}
+
+.navbar {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 15vmin;
+}
+
+.largeNav {
+    display: none;
+}
+
+.MainContent {
+    /* line-height:75vmin; */
+    width: 100%;
+    padding: 0vmin 5vmin;
+    /* height: 70vmin; */
+    float: left;
+    /* border: 1px solid; */
+}
+
+.means {
+    float: left;
+    margin-top: 15vmin;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.means h1 {
+
+    /* font-family:var(--playWrite), cursive; */
+    display: inline-block;
+
+    font-family: var(--Satisfy);
+    font-style: italic;
+    color: var(--a);
+}
+
+.means h2 {
+    font-family: var(--Fjalla);
+    font-size: 8vmin;
+}
+
+.means>button {
+    padding: 1vmin 5vmin;
+    color: white;
+    background:
+        transparent;
+    font-size: 3vmin;
+    border-radius: 1px 1px 17px 1px;
+
+    border: 2px solid;
+}
+
+.means>button:hover {
+    color: var(--b);
+    border-radius: 1px 26px 1px 23px;
+    border: var(--b);
+    transition: all 0.4s ease-in;
+    background-color: var(--a);
+}
+
+.nav-link:hover {
+    transition: all 0.4s ease-in;
+
+    color: var(--a);
+}
+
+/* #lgf {
+    font-size: 6vmin;
+} */
+@media screen and (max-width:990px) {
+
+    /* .MainContent {
+        padding: 0px 5vmin;
+    } */
+
+    #Navone {
+        display: none;
+    }
+
+    .small {
+        display: none;
+    }
+
+    .largeNav {
+        display: block;
+    }
+
+}
+
+.nav2{
+    display:none;
+}
+.mobilena{
+    display: flex;
+    border: 2px solid powderblue;
+}
+/*  */
+@media screen and (max-width:666px) {
+    #header {
+        height: 600px;
+        /* margin-left: -15vmin; */
+        width: 100%;
+        background-image: url(./Image/Background.png);
+
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+/* @media screen and (min-width:770px) {
+
+    
+} */
+@media screen and (max-width:768px) {
+    .nav2{
+        display:block;
+    }
+    
+}
+/* @media screen and ((min-widht:1450px) and (max-widht:2560px)){
+    #Navone {
+        display: none;
+    }
+} */
+
+@media screen and (min-width:1450px) {
+
+    #lgf {
+        font-size: 2vmin;
+    }
+}

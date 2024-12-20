@@ -1,0 +1,76 @@
+.subContent {
+    height: auto;
+    width: 100%;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    padding: 5vmin 0vmin;
+    /* border: 2px solid ; */
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background: url(./Image/subbg.png);
+    /* background-color: antiquewhite; */
+}
+
+.subContenCenter {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 50vmin;
+    flex-direction: column;
+}
+
+.subContenCenter>h1 {
+    color: var(--a);
+    font-style: italic;
+    /* font-size: 4vmin; */
+    font-weight: 100;
+    /* text-transform: lowercase; */
+    font-family: var(--Satisfy);
+}
+
+.subContenCenter>h3 {
+    text-transform: uppercase;
+    font-family: var(--Fjalla);
+}
+
+.subContenCenter>p {
+    font-size: 1.5vmin;
+}
+
+.playbtn {
+    width: 6.5vmin;
+}
+
+@media screen and (max-width:990px) {
+    .subContenCenter {
+        width: 80%;
+    }
+
+    .subContenCenter>p {
+        font-size: 1.8vmin;
+    }
+}
+
+@media screen and (min-width:1450px) {
+    .subContenCenter {
+        line-height: 3.5vmin;
+    }
+
+    .subContenCenter>h1 {
+
+        font-size: 6vmin;
+    }
+
+    .subContenCenter>h3 {
+        font-size: 3vmin;
+
+    }
+
+    .subContenCenter>p {
+        font-size: 2vmin;
+    }
+
+}

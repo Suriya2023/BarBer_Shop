@@ -1,0 +1,155 @@
+.borderr {
+    position: absolute;
+    inset: 0px;
+    border: 1px solid var(--w);
+    opacity: 0;
+    transform: rotate(10deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.cardd {
+    padding: 5vmin;
+    width: 100%;
+    height: auto;
+    background: url(./Image/s8.png);
+    position: relative;
+    display: grid;
+    background-position: center !important;
+    place-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.cardd:hover {
+    /* border-radius: 0; */
+    transform: scale(1);
+}
+
+.cardd:hover .borderr {
+    inset: 15px;
+    opacity: 1;
+    transform: rotate(0);
+}
+
+#lorem {
+    visibility: hidden;
+}
+
+.dome {
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 50%;
+    background: url(./Image/h2.jpg);
+    margin: 0 auto;
+    text-align: center;
+    background-size: contain;
+    /* background-color: aqua; */
+}
+
+.dome1 {
+    background: url(./Image/h4.jpg);
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-size: contain;
+    /* background-color: aqua; */
+}
+
+#Suraj {
+    font-family: var(--Fjalla);
+}
+
+#india {
+    font-weight: 100;
+    color: var(--a);
+}
+
+.dome2 {
+    background: url(./Image/h3.jpg);
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-size: contain;
+    /* background-color: aqua; */
+}
+
+.carousel-caption {
+    height: 50vmin;
+    /* border: 1px solid white; */
+}
+
+.carousel-caption>h1 {
+    font-size: 5vmin;
+    font-weight: 100;
+    color: var(--a);
+    font-family: var(--Satisfy);
+}
+
+.carousel-caption>h3 {
+    font-family: var(--Fjalla);
+
+}
+
+.d-block {
+    width: 81% !important;
+    height: 55vmin;
+}
+
+ 
+
+
+#btnnone {
+    display: none;
+}
+
+@media screen and (max-width:770px) {
+    .cardd {
+
+        height: 60vmin;
+    }
+
+    .d-block {
+        width: 81% !important;
+        height: 15vmin;
+    }
+
+    #lorem {
+        color: white;
+        visibility: hidden;
+        text-align: center;
+        margin: 0 auto;
+        /* line-height:6vmin; */
+        /* letter-spacing: vmin; */
+    }
+
+    #lorem>h3 {
+        visibility: visible;
+        color: var(--a);
+        font-family: var(--Fjalla);
+    }
+
+
+    #btnnone {
+        display: block;
+    }
+
+    /* small{
+        display: none;
+    } */
+
+    #smls {
+        display: none;
+    }
+
+    .carousel-caption {
+        display: none;
+        /* height: 44vmin; */
+    }
+}

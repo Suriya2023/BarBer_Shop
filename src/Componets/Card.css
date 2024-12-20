@@ -1,0 +1,265 @@
+.maincatting {
+    color: var(--w);
+    background: var(--b);
+    /* border: 2px solid; */
+    text-align: center;
+}
+
+.maincatting p {
+    color: var(--a);
+    font-size: 5vmin;
+    /* text-transform: ; */
+    font-family: var(--Satisfy);
+}
+
+.section {
+    padding: 1vmin 15vmin;
+    background: var(--b);
+    height: auto;
+    /* border: 2px solid; */
+}
+
+.hoverCd {
+    grid-area: 3vmin;
+    border: 2px solid;
+    gap: 3vmin;
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+
+@media screen and (max-width:600px) {
+    .hoverCd {
+        flex-wrap: wrap;
+    }
+
+    /* .section {
+                padding: 0px;
+            } */
+
+}
+
+.cardcd {
+    border: 1px solid white;
+    margin-right: 2vmin;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    /* border: 1px solid; */
+    background: var(--b);
+    height: auto;
+}
+
+/* card animation */
+#card {
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: inset 0px 0px 19px 11px black;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Image/c1.jpg);
+    /* background: linear-gradient(0deg, #4e0d0d, #272727); */
+    border-radius: 8px;
+    z-index: 1;
+}
+
+#card:hover {
+    background: var(--b);
+}
+
+.card.hover .hearCurt {
+    transform: rotateX(0deg);
+}
+
+.card:hover .card__content {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+/* second */
+#card2 {
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+    box-shadow: inset 0px 0px 19px 11px black;
+
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Image/c3.jpg);
+    /* background: linear-gradient(0deg, #4e0d0d, #272727); */
+    border-radius: 8px;
+    z-index: 1;
+}
+
+#card2:hover {
+    background: rgba(1, 1, 1, .9);
+}
+
+#card2.hover .hearCurt {
+    transform: rotateX(0deg);
+}
+
+.card2:hover .card__content {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+/* third */
+#card3 {
+    overflow: hidden;
+    width: auto;
+    /* background: rgba(0, 0, 0, 0.2); */
+    height: 100%;
+    background-position: center;
+    box-shadow: inset 0px 0px 19px 11px black;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Image/c4.jpg);
+    /* background: linear-gradient(0deg, #4e0d0d, #272727); */
+    border-radius: 8px;
+    z-index: 1;
+}
+
+#card3:hover {
+    background: var(--b);
+}
+
+#card3.hover .hearCurt {
+    transform: rotateX(0deg);
+}
+
+.card3:hover .card__content {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.hearCurt {
+    line-height: 3vmin;
+    transition: all 3s;
+    transform: rotateX(40deg);
+}
+
+.card__content:hover p {
+    font-family: var(--playWrite);
+    color: var(--a);
+    text-transform: lowercase;
+    font-size: 3vmin;
+}
+
+.hearCurt span {
+    font-size: 2vmin;
+}
+
+@media screen and (max-width:600px) {
+    .hearCurt p {
+
+        font-size: 8vmin;
+
+    }
+
+    .section {
+        padding: 0vmin 0vmin;
+    }
+
+    .card__content:hover p {
+        font-size: 8vmin;
+    }
+
+    .hearCurt span {
+        font-size: 4vmin;
+        line-height: 7vmin;
+    }
+
+    .hearCurt {
+        line-height: 7vmin;
+    }
+
+    .hearCurt>a {
+        font-size: 6.5vmin;
+    }
+
+}
+
+
+.local {
+    margin-top: 5vmin;
+    font-size: 6vmin;
+    color: var(--w);
+    font-family: var(--Fjalla);
+}
+
+.thisancor {
+    font-size: 2.5vmin;
+    color: red;
+    text-decoration: none;
+}
+
+.hearCurt a:hover {
+    line-height: 2vmin;
+
+    /* text-decoration: underline; */
+    border-bottom: 2px solid var(--a);
+}
+
+.card__content {
+    opacity: 0;
+    transition: all 2s;
+    transform: translateX(-400%);
+    color: var(--w);
+    line-height: 100%;
+    text-align: center;
+    padding: 0px 6vmin;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+.hearCurt p {
+    transition: all 3s;
+    font-size: 5vmin;
+    font-family: var(--Satisfy);
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}

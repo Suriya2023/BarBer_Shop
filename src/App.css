@@ -1,0 +1,20 @@
+ 
+:root {
+  --primary-color: #333;
+  --playWrite: "Playwrite SK", cursive;
+  --Satisfy: "Satisfy", cursive;
+  --Fjalla: "Fjalla One", sans-serif;
+  /* --a: rgb(128, 216, 200); */
+  --a:#63E6BE;
+  /* --a: rgb(216, 159, 128); */
+  --g: #bd9f67;
+  --b: rgb(30, 28, 28);
+  --w: white;
+}
+@media screen and (max-width:425px) {
+  
+
+.submit {
+  width: 27vmin;
+};
+}

@@ -1,0 +1,147 @@
+.mastersection {
+    background-color: var(--b);
+}
+
+
+.containerh1 {
+    line-height: 2.5vmin;
+    color: var(--w);
+    text-align: center;
+}
+
+.containerh1>h2 {
+    font-family: var(--Satisfy);
+    color: var(--a);
+}
+
+.containerh1>h3 {
+    font-family: var(--Fjalla);
+    text-transform: uppercase;
+    font-size: 3.5vmin;
+
+}
+
+.maiknmaster {
+    margin-top: -13vmin;
+    padding: 15vmin;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid white; */
+}
+
+@media screen and (max-width:647px) {
+    .maiknmaster {
+        margin: 0px;
+    }
+
+}
+
+.maiknmaster>div {
+    width: 100%;
+
+    position: relative;
+    box-sizing: border-box;
+    max-height: 100vmin;
+    opacity: 1;
+    color: var(--w);
+    background-repeat: no-repeat !important;
+    /* background: url(./Image/s6.png); */
+    background-position: center !important;
+    height: auto;
+    object-fit: cover;
+    background-size: cover !important;
+    border: 2vmin solid var(--b);
+}
+
+.containermaster2 {
+    background: url(./Image/s7.png);
+
+}
+
+.containermast1 {
+    background: url(./Image/s6.png);
+
+}
+
+.classic1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--Fjalla);
+    /* text-transform: uppercase; */
+
+
+}
+
+.classic1>p {
+    font-size: 3vmin;
+    color: var(--a);
+
+}
+
+.hrrr {
+    /* height: 2vmin; */
+    /* border: 0.1px solid white; */
+    height: 0.1px;
+    background-color: var(--w);
+}
+
+.classic {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    line-height: 2vmin;
+
+    /* line-height: 1vmin ; */
+    /* border-bottom: 1px solid ; */
+    padding: 6vmin;
+
+}
+
+@media screen and (max-width:990px) {
+    .maiknmaster {
+        flex-direction: column;
+    }
+
+    .maiknmaster>div {
+        max-height: 100%;
+        background-size: contain;
+
+    }
+}
+
+@media screen and (max-width:646px) {
+    .maiknmaster {
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width:430px) {
+
+    .classic {
+        line-height: 5vmin;
+    }
+}
+
+/* @media screen and (min-width:1025) {
+    .containerh1>h3 {
+        font-size: 3.5vmin;
+    }
+    .containerh1>h2 {
+        font-size: 5vmin;
+    }
+    
+} */
+
+
+@media (min-width: 1450px) {
+
+    .h2,
+    h2 {
+        font-size: 5rem;
+    }
+
+    .containerh1>h3 {
+        font-size: 3rem;
+    }
+}

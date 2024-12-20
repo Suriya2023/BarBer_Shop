@@ -1,0 +1,289 @@
+#headerr {
+    max-height: 100%;
+    background-size: cover;
+    background-image: url(./Image/Blog.png);
+    height: 80vmin;
+    color: white;
+    background-color: var(--b);
+    position: relative;
+    /* position: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+.mainbloge{
+    height: 50vmin;
+    text-align: center;
+    line-height: 0.2vmin;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+ 
+.mainbloge > h1{
+font-family: var(--Fjalla);
+
+}
+.mainbloge > h3{
+    color: var(--w);
+    font-size: 2vmin;
+}
+.mainblogee > h1{
+    font-family: var(--Fjalla);
+    
+    }
+    .mainblogee > h3{
+        color: var(--w);
+        font-size: 2vmin;
+    }
+    
+
+.bloge{
+    color: var(--a);
+}
+.bloge{
+    color: var(--a);
+}
+.emaill {
+    align-items: center;
+    height: 5vmin;
+    border-bottom: 1px solid;
+    /* border: 2px solid; */
+    vertical-align: middle;
+    align-items: center;
+    line-height: 4.5vmin;
+}
+
+.btn-close {
+    float: inline-end;
+}
+
+.txtidd {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.txtidd>div {
+    font-size: 1.7vmin;
+}
+
+#iconUUl {
+    align-items: center;
+    display: flex;
+
+}
+.haircutbtn > button{
+    width: 18vmin;
+    box-sizing: border-box;
+    float: right;
+    font-size: 2.5vmin;
+    background-color: var(--a);
+    font-weight: 700;
+    display: block;
+    /* padding: 5px; */
+    border: none;
+
+}
+.iconUUli>i {
+    font-size: 2.5vmin;
+}
+
+#iconUUl>span {
+    /* border: 1px solid ; */
+    margin-left: 1vmin;
+
+}
+
+/* top content close */
+/* nav */
+#iconUll {
+    align-items: center;
+    display: flex;
+
+}
+
+.offcanvas-body {
+    color: var(--w);
+    background-color: var(--b);
+}
+#dopcenter{
+    /* display: flex; */
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.offcanvas {
+    background: var(--b);
+}
+
+#iconUll>span {
+    /* border: 1px solid ; */
+    margin-left: 1vmin;
+
+}
+.nav-item a{
+    color: var(--w);
+}
+.nav-item a>:active{
+    color: var(--w);
+}
+.nav-item a:hover{
+    color: var(--w);
+}
+.dropdown-menu{
+    border: 1px solid var(--w);
+    background-color: var(--b);
+}
+.dropdown-item:hover{
+    background-color: black;
+}
+.navbar-togglerr {
+    padding: 1.5vmin;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.largeNavv {
+    display: none;
+}
+
+
+.navbarr {
+    color: white;
+}
+
+
+#uuuu {
+    box-shadow: -4px -7px 95px 72px;
+    border-radius: 50%;
+    width: 4vmin;
+    margin-right: 8vmin;
+    border: 1px solid;
+    color: antiquewhite;}
+
+.hrliine {
+    height: 1vmin;
+    color: var(--w);
+}
+
+#imgccenter {
+    vertical-align: middle;
+    margin: 0 AUTO;
+    display: flex;
+
+}
+
+#myhhome:active {
+    color: var(--w);
+}
+
+#myhhome a:hover {
+    transition: all 0.4s ease-in;
+
+    color: var(--a);
+}
+.mainblogee{
+    display: none;
+}
+
+@media screen and (min-width:1450px) {
+
+    #lggff {
+        font-size: 2vmin;
+    }
+}
+@media screen and (max-width:578px) {
+  #nexthdblog{
+    height:100vmin ;
+  }  
+}
+
+@media screen and (max-width:990px) {
+    .mainblogee >h1{
+        font-size: 9vmin;
+    }
+.mainblogee > h3{
+    font-size: 3vmin;
+}
+    .mainbloge{
+        display: none;
+    }
+        .mainblogee {
+            display: block;
+            vertical-align: middle;
+            height: 50vmin;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+    /* .MainContent {
+        padding: 0px 5vmin;
+    } */
+
+    /* #Navone {
+        display: none;
+    } */
+
+    .smalll {
+        display: none;
+    }
+
+    .largeNavv {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .offcanvas {
+        background-size: cover;
+        background-image: url(./Image/Blog.png);
+    }
+.navbar-brand > img{
+    width: 20vmin;
+}
+
+    #uuuu {
+        width: 8vmin;
+    }
+}
+
+@media screen and (min-width:1450px) {
+
+    #lgff {
+        font-size: 2vmin;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* navclose */
+
+@media screen and (max-width:666px) {
+    #headerr {
+        height: 600px;
+        /* margin-left: -15vmin; */
+        width: 100%;
+        background-image: url(./Image/Blog.png);
+
+        background-position: center;
+        background-size: cover;
+    }
+
+}

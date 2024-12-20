@@ -1,0 +1,137 @@
+.Contact {
+    height: auto;
+    width: 100%;
+    /* padding: 5vmin 15vmin; */
+    background-position: center !important;
+    background-size: contain !important;
+    background: url(./Image/f1.png);
+}
+
+.contactustwo {
+    padding: 5vmin 15vmin;
+
+    /* border: 1px solid white; */
+    display: grid;
+    gap: 5vmin;
+    height: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
+.contactinner {
+    height: 80vmin;
+    background: url(./Image/f2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    /* border: 15px solid; */
+}
+
+.maincontact>h2 {
+    color: var(--a);
+    font-family: var(--Satisfy);
+
+}
+
+.maincontact>h3 {
+    text-transform: uppercase;
+    font-family: var(--Fjalla);
+}
+
+.maincontact>p {
+    line-height: 2.9vmin;
+    font-size: 2.5vmin;
+}
+
+.contactinner1 {
+    height: auto;
+
+    background-size: cover;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+#fromrequer {
+    line-height: 6vmin;
+}
+
+#TextArea {
+    text-align: left;
+    width: 100%;
+    padding: 2vmin;
+    height: 15vmin;
+    margin-top: 0.5vmin;
+}
+
+#fname {
+    text-align: center;
+    border-radius: 1px;
+    font-size: 2vmin;
+    height: 5vmin;
+    width: 30vmin;
+    border: none;
+}
+
+.maincontact {
+    padding: 0vmin 2vmin;
+    color: var(--w);
+    display: flex;
+    line-height: 100%;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    height: 100%;
+}
+
+.BookNow {
+    display: block;
+    font-weight: 700;
+    color: var(--w);
+    width: 25vmin;
+    border: 2px solid var(--w);
+    cursor: pointer;
+    background: none;
+    padding: 0vmin 2vmin;
+}
+
+.BookNow:hover {
+    color: var(--b);
+    background-color: var(--a);
+    border: none;
+
+}
+
+@media screen and (max-width:425px) {
+    .BookNow {
+        padding: 2vmin 2vmin;
+
+        margin: 2vmin 0.5vmin;
+
+        width: 50vmin;
+    }
+
+    .Contact {
+        padding: 2vmin;
+    }
+
+    .contactustwo {
+        padding: 0vmin 0vmin;
+    }
+}
+
+@media screen and (max-width:990px) {
+    #TextArea {
+        padding: 0.1px 6vmin;
+        height: 27vmin;
+        margin-top: 2vmin;
+    }
+
+    #fromrequer {
+        line-height: 8vmin;
+    }
+
+    .update {
+        /* padding: 3vmin; */
+        margin: -1vmin auto;
+    }
+
+}
