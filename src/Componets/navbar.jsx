@@ -109,7 +109,7 @@ function navbar() {
                       <Link id='lgf' to='/Section' className="nav-link " aria-disabled="true">Services</Link>
                     </li>
                     <li className="nav-item">
-                      <Link id='lgf' to='/' className="nav-link " aria-disabled="true">Portfolio</Link>
+                      <Link id='lgf' to='/BarBer_Shop/' className="nav-link " aria-disabled="true">Portfolio</Link>
                     </li>
 
                     <li className="nav-item">

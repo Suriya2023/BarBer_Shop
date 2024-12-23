@@ -14,7 +14,7 @@ function App() {
       <Router>
         {/* blog star */}
         <Routes>
-          <Route path='/' element={<Navbar />} />
+          <Route path='/BarBer_Shop/' element={<Navbar />} />
           <Route path='/blog' element={<Blog />} />
           <Route path='/Section' element={<Service />} />
           <Route path='/contact' element={<Contact />} />
