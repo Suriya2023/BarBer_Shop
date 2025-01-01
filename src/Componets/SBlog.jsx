@@ -133,7 +133,22 @@ function SBlog() {
                     </div>
                     {/* next column */}
                     <div className="mainsblogt">
+                        <div className="maincater">
+                            <div className='Achivment'>
+                                <h3 className='esdessh'>GALLERY</h3>
+                                <div className='hr'></div>
+                                <br />
 
+                                    <section className="mainimg">
+                                            <img src={require('./Image/IMG 1.png')} alt></img>
+                                            <img src={require('./Image/IMG 2.png')} alt></img>
+                                            <img src={require('./Image/IMG 3.png')} alt></img>
+                                            <img src={require('./Image/IMG 4.png')} alt></img>
+                                            <img src={require('./Image/IMG 5.png')} alt></img>
+                                            <img src={require('./Image/IMG 6.png')} alt></img>
+                                    </section>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
