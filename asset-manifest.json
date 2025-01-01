@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BarBer_Shop/static/css/main.b9d2a1fb.css",
-    "main.js": "/BarBer_Shop/static/js/main.9e8074df.js",
+    "main.js": "/BarBer_Shop/static/js/main.363b5d29.js",
     "static/js/488.022bf3a4.chunk.js": "/BarBer_Shop/static/js/488.022bf3a4.chunk.js",
     "static/media/Background.png": "/BarBer_Shop/static/media/Background.cf6905afcc695b0eecd3.png",
     "static/media/Blog.png": "/BarBer_Shop/static/media/Blog.c88842d0f2b0a454d223.png",
@@ -56,11 +56,11 @@
     "static/media/c3.jpg": "/BarBer_Shop/static/media/c3.430b8e0a5ab237a94925.jpg",
     "index.html": "/BarBer_Shop/index.html",
     "main.b9d2a1fb.css.map": "/BarBer_Shop/static/css/main.b9d2a1fb.css.map",
-    "main.9e8074df.js.map": "/BarBer_Shop/static/js/main.9e8074df.js.map",
+    "main.363b5d29.js.map": "/BarBer_Shop/static/js/main.363b5d29.js.map",
     "488.022bf3a4.chunk.js.map": "/BarBer_Shop/static/js/488.022bf3a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b9d2a1fb.css",
-    "static/js/main.9e8074df.js"
+    "static/js/main.363b5d29.js"
   ]
 }
