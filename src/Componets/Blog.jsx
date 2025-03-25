@@ -86,7 +86,7 @@ export default function Blog() {
 
 
                       <li className="nav-item">
-                        <Link id='lgff' to='/Navbar' className="nav-link " aria-disabled="true">Blog</Link>
+                        <Link id='lgff' to='/BarBer_Shop' className="nav-link " aria-disabled="true">Blog</Link>
                       </li>
 
                       <li className="nav-item">

@@ -1,16 +1,41 @@
 import React from 'react'
 import './Gallery.css'
+import { motion } from "motion/react"
+
 function Gallery() {
+  const transition = {
+    duration: 0.8,
+    opacity: 0,
+    delay: 0.5,
+    ease: [0, 0.71, 0.2, 1.01],
+  }
   return (
     <div>
       <section id='gdflex'>
         <div className="maincatting">
-          <br />
-          <p>Our Gellery
-          </p>
-          <span> LOOKING A BEAUTYFUL STYLE</span>
+
+          <motion.div
+            animate={{ y: -0 }}
+            transition={transition} initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+          >
+            <br />
+            <p>Our Gellery
+            </p>
+            <span> LOOKING A BEAUTYFUL STYLE</span>
+
+
+          </motion.div>
         </div>
+        <motion.div
+          animate={{ y: 0 }}
+          transition={transition} initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+        >
         <div className="gridegallary">
+
+
+          
 
 
           <div className="glritem" id='myimggrr1'>
@@ -39,7 +64,8 @@ function Gallery() {
           <div className="glritem" id='myimggrr8'>
           </div>
         </div>
-            
+        </motion.div>
+
       </section>
     </div>
   )
