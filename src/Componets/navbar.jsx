@@ -44,7 +44,7 @@ function Navbar() {
                   Suraj123@gmail.com
                   &nbsp;&nbsp;&nbsp;|  &nbsp; &nbsp;
                   <i className="fa-solid fa-phone"></i> &nbsp; &nbsp;
-                  +91 95510190352
+                  +91 9510190352
 
                 </div>
                 <div className="iconid">
