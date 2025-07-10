@@ -1,24 +1,39 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './Componets/navbar';
 import Blog from './Componets/Blog';
-import Service from './Componets/navSvc';
+import Service from './Componets/navSvc'
 import Contact from './Componets/ContactNav';
-
-const basename = process.env.NODE_ENV === "production" ? "/BarBer_Shop" : "/";
+// rugf
+// import C1 from './Components/C1';
+// import C2Map from './Components/C2Map';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={basename}>
+      <Router>
+        {/* blog star */}
+        
         <Routes>
-          <Route path="/" element={<Navbar />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/Section" element={<Service />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<h1>404 - Not Found</h1>} />
+          <Route path='/' element={<Navbar />} />
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/Section' element={<Service />} />
+          <Route path='/contact' element={<Contact />} />
+
+
         </Routes>
-      </BrowserRouter>
+
+        {/* blog end */}
+        {/* service start */}
+
+
+        {/* service end */}
+
+        {/* contact nav  */}
+
+
+      </Router>
+
     </div>
   );
 }
