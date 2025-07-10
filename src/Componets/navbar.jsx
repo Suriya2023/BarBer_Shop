@@ -17,7 +17,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import { Link } from 'react-router-dom'
 import { motion } from "motion/react"
-function navbar() {
+function Navbar() {
   const transition = {
     duration: 0.8,
     opacity: 0,
@@ -305,4 +305,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
