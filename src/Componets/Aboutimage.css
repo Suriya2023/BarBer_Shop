@@ -1,0 +1,141 @@
+
+
+.gride {
+    display: flex;
+    /* flex-wrap: wrap; */
+    border: none;
+    height: auto;
+    /* flex-direction: column; */
+    background-color: var(--b);
+    padding: 0vmin 15vmin;
+    /* grid-template-columns: repeat(auto-fit , minmax(100px , 3fr)); */
+}
+
+
+.firstimg {
+    max-height: 80vmin;
+    height: 80vmin;
+    /* max-width: 100%; */
+    background-repeat: no-repeat;
+    width: 190vmin;
+    margin-top: -5vmin;
+    background-position: center;
+    z-index: 1;
+    background-size: cover;
+    margin-right: 3vmin;
+    margin-bottom: 3vmin;
+    border: none;
+    /* background: url(./Image/About\ Us.png); */
+}
+
+.firstimg2 {
+    max-height: 80vmin;
+    height: 80vmin;
+    /* max-width: 100%; */
+    background-repeat: no-repeat;
+    width: 190vmin;
+    margin-top: -5vmin;
+    background-position: center;
+    z-index: 1;
+    background-size: cover;
+    margin-right: 3vmin;
+    margin-bottom: 3vmin;
+    border: none;
+    /* background: url(./Image/About\ Us.png); */
+}
+
+.firstimg img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.firstimg2 img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.firstimg2 {
+    height: 75vmin;
+    display: flex;
+    /* text-align: center; */
+    width: 190vmin;
+
+    align-items: center;
+    /* border: 1px solid; */
+    color: var(--w);
+}
+
+.firstimg23 {
+    height: 75vmin;
+    display: flex;
+    /* text-align: center; */
+    width: 190vmin;
+
+    align-items: center;
+    /* border: 1px solid; */
+    color: var(--w);
+}
+
+.firstimg2 h2 {
+
+    /* font-family:var(--playWrite), cursive; */
+    display: inline-block;
+    font-family: var(--Satisfy);
+    font-size: 5vmin;
+    font-style: italic;
+    color: var(--a);
+}
+
+
+.firstimg2 h3 {
+    font-size: 5vmin;
+    font-family: var(--Fjalla);
+    text-transform: uppercase;
+}
+
+.firstimg2 p {
+    font-size: 2vmin;
+}
+
+#fitbtn {
+    padding: 1vmin 5vmin;
+    color: var(--w);
+    margin-bottom: 2vmin;
+    background:
+
+        transparent;
+    font-size: 3vmin;
+    border-radius: 1px 1px 17px 1px;
+    border: 2px solid;
+}
+
+#fitbtn:hover {
+    color: var(--b);
+    border-radius: 1px 26px 1px 23px;
+    border: var(--b);
+    transition: all 0.4s ease-in;
+    background-color: var(--a);
+}
+
+@media screen and (max-width:450px) {
+
+        .firstimg2 {
+        height: 45vmin;
+        text-align: center;
+        margin-bottom: -12vmin;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .gride {
+
+        flex-wrap: wrap;
+    }
+
+    .firstimg {
+        margin-right: 0vmin;
+
+    }
+}

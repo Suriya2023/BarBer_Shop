@@ -1,0 +1,30 @@
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 60vmin;
+    /* width: 1080px; */
+    border: 2px solid ;
+}
+
+
+.mapouter {
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.mainmapcd{
+    padding: 2vmin;
+    background-color: var(--b);
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:520px) {
+.gmap_canvas {
+    height: 100%;
+}
+    
+}

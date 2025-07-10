@@ -1,0 +1,304 @@
+  /* Basic styling for the banner */
+  .banner-container {
+      display: flex;
+      align-items: center;
+      padding: 0px 20vmin;
+      background-color: var(--b);
+  }
+
+  .banner-image {
+      flex: 1;
+      /* max-width: 50%; */
+  }
+
+  .banner-text {
+      color: var(--w);
+
+      flex: 1;
+      padding: 20px;
+  }
+
+  .banner-text h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+
+  .banner-text div {
+      line-height: 5vmin;
+      list-style-type: disc;
+      /* margin-left: 20px; */
+  }
+
+  .cta-button {
+      background-color: var(--b);
+      color: #ffffff;
+      padding: 5px 20px 15px 27px;
+      border: 2px solid var(--w);
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .s101 {
+      width: 100%;
+      background-color: var(--b);
+  }
+
+  .classs1233 {
+      padding: 0px 22vmin;
+      display: flex;
+      height: auto;
+  }
+
+  .carss2 {
+      width: 100%;
+      height: auto;
+      border: 10px solid var(--b) ;
+  }
+
+  .carss1 {
+
+      background: var(--b);
+      width: 100%;
+  }
+
+  .s102>h2 {
+      font-family: var(--Fjalla);
+      font-weight: 400;
+  }
+
+  .s102>h6 {
+
+      font-size: 2.5vmin;
+      text-align: center;
+      position: relative;
+      padding: 0px 25px;
+  }
+
+  .banner-text>h5 {
+      font-size: 15px;
+      font-weight: 100;
+
+
+  }
+  /* card iffect */
+  .flexxx {
+    transition: background border 1s ease-in;
+    overflow: hidden;
+    display: flex;
+    color: var(--w);
+    height: 13vmin;
+    width: 100%;
+    border: 1px solid var(--w);
+}
+.boxesss {
+    line-height: 15vmin;
+    height: 15vmin;
+    width: 25%;
+    background-color:var(--a);
+}
+.texttt {
+    box-sizing: border-box;
+    /* align-items: center; */
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 13vmin;
+    text-align: justify;
+    padding: 0px 15px;
+}
+.texttt span {
+    align-items: center;
+    text-align: justify;
+    /* width: 82%; */
+    font-family: var(--Fjalla);
+    font-size: 3vmin;
+}
+.texttt p {
+    align-items: center;
+    text-align: justify;
+    width: 94%;
+    font-size: 1.6vmin;
+}
+.flexxx :hover  .boxesss{
+    background-color: red;
+}
+.texttt:hover {
+    color: var(--w);
+    border-left: 1px solid black;
+}
+
+  @media screen and (min-width:1013px) and (max-width:1428px) {
+      .asdqwe {
+          display: block;
+      }
+
+      #S102S {
+          padding: 2px 116px;
+      }
+
+  }
+
+  .h102>h2 {
+      font-family: var(--Fjalla);
+      font-size: 3vmin;
+  }
+
+  .s102 {
+      padding: 0px 63vmin;
+  }
+
+  .banner-text>h2 {
+      font-size: 2rem;
+      color: var(--a);
+      font-family: var(--Satisfy);
+  }
+
+  .banner-container-two {
+      text-align: center;
+      background: var(--b);
+      color: var(--w);
+  }
+
+  .banner-container-two>h1 {
+      font-size: 2rem;
+      color: var(--a);
+      font-family: var(--Satisfy);
+  }
+
+  .s123 {
+      /* color: var(--a); */
+      font-family: var(--Fjalla);
+  }
+
+  @media screen and (max-width:618px) {
+    .texttt p {
+
+
+        font-size: 0.6vmin;
+    }
+    .classs1233 {
+        padding: 0px 1vmin;
+    }
+        .texttt span {
+            font-size: 2vmin;
+        
+        }
+    }
+  @media screen and (max-width:530px) {
+   
+
+      .banner-text div {
+          line-height: 10vmin;
+      }
+
+  }
+
+  @media screen and (min-width:1500px) {
+
+      .asdqwe {
+          display: none;
+      }
+
+      .s101 {
+          padding-top: 5vmin;
+      }
+
+      .banner-text {
+          height: 44vmin;
+          line-height: 35px;
+      }
+
+      .banner-text>h2 {
+          font-size: 4.5rem;
+      }
+
+      .s123 {
+          font-size: 6vmin;
+      }
+
+      .banner-text>h5 {
+          font-size: 2.5vmin;
+      }
+
+      .banner-text div {
+          font-size: 2rem;
+      }
+
+      .cta-button {
+          padding: 14px 35px 21px 31px;
+          font-size: 3vmin;
+      }
+  }
+
+  @media screen and (max-width:991px) {
+      .classs1233 {
+          flex-direction: column-reverse;
+      }
+
+      .asdqwe {
+          display: none;
+      }
+
+      .s102 {
+          padding: 0px;
+      }
+
+      .banner-text>h2 {
+          font-size: 4vmin;
+          color: var(--a);
+          font-family: var(--Satisfy);
+      }
+
+      .banner-text>h1 {
+          /* color: var(--a); */
+          font-size: 8vmin;
+          font-family: var(--Fjalla);
+      }
+
+      .banner-container {
+          padding: 0px;
+          flex-direction: column;
+      }
+
+      .banner-text>h5 {
+          font-size: 2.5vmin;
+
+      }
+  }
+
+  /* Reset default margin and padding */
+
+
+  /* Set background color */
+
+
+  /* Container for the sections */
+  .containerrr {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  /* Section styling */
+  .sectionnn {
+      background-color: #1a237e;
+      /* Dark blue */
+      color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+  }
+
+  /* Responsive text size */
+  .sectionnn>h1 {
+      font-size: 2.5vw;
+      /* Relative to viewport width */
+  }
+
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+      .section {
+          padding: 10px;
+      }
+  }

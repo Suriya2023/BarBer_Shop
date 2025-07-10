@@ -1,0 +1,30 @@
+#headerrrr {
+    max-height: 100%;
+    background-size: cover;
+    background-image: url(./Image/conatctnav.png);
+    height: 80vmin;
+    color: white;
+    background-color: var(--b);
+    position: relative;
+    /* position: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width:666px) {
+    #headerrrr {
+        height: 600px;
+        /* margin-left: -15vmin; */
+        width: 100%;
+        background-image: url(./Image/conatctnav.png);
+
+        background-position: center;
+        background-size: cover;
+    }
+
+}

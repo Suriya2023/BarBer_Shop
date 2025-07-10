@@ -1,0 +1,215 @@
+.griddd {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3vmin;
+}
+
+.carddd {
+    object-fit: cover;
+    border: 3vmin solid var(--b);
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carddd>img {
+    width: 100%;
+}
+
+.awssqqsassq {
+    background-color: var(--b);
+    padding: 7vmin;
+}
+
+.aqaqaswsaq {
+    background-color: var(--b);
+}
+
+.lapalalqp {
+    display: flex;
+    color: var(--w);
+    position: absolute;
+    background: transparent;
+    flex-direction: column;
+    height: 37%;
+    justify-content: space-between;
+}
+
+.ggrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 7vmin;
+
+}
+
+.ccard {
+    /* width: 50vmin; */
+    background-color: currentcolor;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ccard>img {
+    width: 100%;
+}
+
+.stander {
+    color: var(--w);
+    text-align: center;
+}
+
+.stander>p {
+    font-size: 2vmin;
+
+}
+
+.stander>h4 {
+    font-family: var(--Fjalla);
+}
+
+.cta-buutton {
+    background-color: black;
+    color: #ffffff;
+    padding: 0vmin 2vmin 7vmin 3vmin;
+    /* border: 2px solid var(--w); */
+    border-radius: 5px;
+    cursor: pointer;
+    height: 6vmin;
+    margin-top: 3vmin;
+}
+
+/* @media screen and (max-width:991px) {
+.ggrid {
+    padding: 25px;
+}
+} */
+.mapingarea {
+    padding: 7vmin;
+    width: 100%;
+    border: 2px solid;
+}
+
+.mainmapingrid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+}
+
+.mapingarea1 {
+    background-color: var(--w);
+}
+
+/* map */
+.mapouter {
+    position: relative;
+    margin: 2vmin 7vmin;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    /* height: 60vmin; */
+    /* width: 1080px; */
+    border: 2px solid;
+}
+.gggrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.caaard {
+    background-color: var(--b);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.caaardd {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* border: 5vmin solid var(--b); */
+}
+
+.caaardd > img{
+    height: 80%;
+}
+@media screen and (max-width:450px) {
+    .cta-buutton {
+        height: 2.5rem;
+        border: 1px solid rebeccapurple;
+    }
+
+}
+
+@media screen and (min-width:1500px) {
+    .cta-buutton {
+        font-size: 2.5vmin;
+        padding: 11px 22px;
+    }
+
+}
+
+.containnner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media screen and (max-width:991px) {
+    .containnner {
+        flex-direction: column;
+}
+    
+}
+
+.imaaage-card {
+    flex: 1;
+    background-color: var(--b);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.forrrm-card {
+    display: flex;
+    flex: 1 1;
+    background-color: var(--b);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+}
+.forrrm-card > h3{
+    font-family: var(--Satisfy);
+    color: var(--a);
+}
+.forrrm-card > h2{
+    font-family: var(--Fjalla);
+
+}
+@media screen and (max-width:463px) {
+
+    .alalalalala{
+        margin-bottom: 2vmin;
+    }
+}
+#mytextarea{
+    width: 50vmin;
+    resize: vertical;
+    height: 18vmin;
+
+}
+.booknowbtn{
+    width: 35vmin;
+    padding: 2vmin;
+    background-color: transparent;
+    color: var(--w);
+    border: 1px solid var(--w)}

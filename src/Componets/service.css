@@ -1,0 +1,148 @@
+
+
+.mainservicegride {
+    display: flex;
+    border-top: 2px solid var(--w);
+    /* flex-wrap: wrap; */
+    border: none;
+    /* margin-bottom: 3vmin; */
+    height: auto;
+    /* flex-direction: column; */
+    background-color: var(--b);
+    padding: 0vmin 15vmin;
+    /* grid-template-columns: repeat(auto-fit , minmax(100px , 3fr)); */
+}
+
+.firstsec {
+    margin-right: 3vmin;
+    margin-bottom: 3vmin;
+    width: 100%;
+    /* border: 2px solid red; */
+
+}
+
+.thisis>h1 {
+    color: var(--a);
+    font-family: var(--Satisfy);
+}
+
+.thisis>h2 {
+    color: var(--w);
+    text-transform: uppercase;
+    font-family: var(--Fjalla);
+}
+
+.thisis>p {
+    color: var(--w);
+
+}
+
+.flex {
+
+    transition: background border 1s ease-in;
+    overflow: hidden;
+    display: flex;
+    color: var(--w);
+    height: 13vmin;
+    width: 100%;
+}
+
+.flex:hover .boxes {
+    border-right: 1px solid black;
+}
+.flex:hover{
+    border: 5px solid var(--a);
+}
+.flex:hover .text{
+    margin-top: 12.3vmin;
+}
+
+.firstsec img {
+    margin-bottom: 3vmin;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.boxes {
+    line-height: 15vmin;
+    height: 15vmin;
+    width: 25%;
+    background-color: var(--a);
+}
+
+.text {
+    box-sizing: border-box;
+    /* align-items: center; */
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 13vmin;
+    text-align: justify;
+    padding: 0px 15px;
+}
+
+.text p {
+    align-items: center;
+    text-align: justify;
+    width: 94%;
+    font-size: 1.6vmin;
+}
+
+.text span {
+    align-items: center;
+    text-align: justify;
+    /* width: 82%; */
+    font-family: var(--Fjalla);
+    font-size: 3vmin;
+}
+
+.flex:hover {
+    /* border-left: 1px solid black; */
+    color: var(--b);
+
+    background-color: var(--a);
+
+}
+
+.text:hover {
+    color: var(--b);
+    border-left: 1px solid black;
+}
+
+
+@media screen and (max-width:990px) {
+    .mainservicegride {
+        flex-wrap: wrap;
+    }
+
+    /* .firstsec {
+    font-size: 3vmin;
+    margin: 0px;
+    text-align: center;
+} */
+
+}
+
+@media screen and (max-width:555px) {}
+
+@media screen and (max-width:450px) {
+
+        .mainservicegride {
+            flex-direction: column-reverse;
+        }
+    
+    .text {
+
+        padding: 6px 15px;
+    }
+
+    .firstsec {
+
+        height: 85%;
+
+        text-align: center;
+
+    }
+}
